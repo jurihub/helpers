@@ -2,7 +2,7 @@
     "name": "jurihub/helpers",
     "version": "1.0.5",
     "dist": {
-        "url": "https://github.com/jurihub/helpers/archive/1.0.4.zip",
+        "url": "https://github.com/jurihub/helpers/archive/1.0.5.zip",
         "type": "zip"
     },
     "autoload": {
