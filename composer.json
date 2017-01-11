@@ -1,9 +1,12 @@
 {
     "name": "jurihub/helpers",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "dist": {
-        "url": "https://github.com/jurihub/helpers/archive/1.0.5.zip",
+        "url": "https://github.com/jurihub/helpers/archive/1.0.6.zip",
         "type": "zip"
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^6.2"
     },
     "autoload": {
         "psr-4": {
