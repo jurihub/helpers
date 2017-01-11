@@ -1,0 +1,8 @@
+{
+    "packages": {
+        "jurihub/helpers": {
+            "dev-master": { @composer.json },
+            "1.0.0": { @composer.json }
+        }
+    }
+}
