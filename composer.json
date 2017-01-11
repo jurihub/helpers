@@ -1,7 +1,11 @@
 {
     "name": "jurihub/helpers",
     "type": "library",
-    "version": "1.0.0",
+    "version": "1.0.4",
+    "dist": {
+        "url": "https://github.com/jurihub/helpers/archive/1.0.4.zip",
+        "type": "zip"
+    },
     "description": "Laravel Packages with several helpers.",
     "keywords": [
         "Laravel",
