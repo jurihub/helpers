@@ -1,0 +1,24 @@
+{
+    "name": "jurihub/helpers",
+    "type": "library",
+    "version": "1.0.0",
+    "description": "Laravel Packages with several helpers.",
+    "keywords": [
+        "Laravel",
+        "Helpers"
+    ],
+    "homepage": "https://github.com/jurihub/helpers",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Jurihub",
+            "email": "info@digital-avocat.fr",
+            "homepage": "https://www.digital-avocat.fr"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Jurihub\\Helpers\\": "src"
+        }
+    }
+}
