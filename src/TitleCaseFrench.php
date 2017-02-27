@@ -254,7 +254,7 @@ class TitleCaseFrench
         $txtWithDash = explode("-", $txt);
 
         if (count($txtWithDash) === 2) {
-            return self::capitalizeFirst($txtWithDash[0]) . "-" + self::capitalizeFirstIfNeeded($txtWithDash[1]);
+            return self::capitalizeFirst($txtWithDash[0]) . "-" . self::capitalizeFirstIfNeeded($txtWithDash[1]);
         }
 
         // look for .

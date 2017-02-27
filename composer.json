@@ -1,8 +1,8 @@
 {
     "name": "jurihub/helpers",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "dist": {
-        "url": "https://github.com/jurihub/helpers/archive/1.0.6.zip",
+        "url": "https://github.com/jurihub/helpers/archive/1.0.7.zip",
         "type": "zip"
     },
     "require": {
