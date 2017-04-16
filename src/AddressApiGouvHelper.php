@@ -56,8 +56,15 @@ class AddressApiGouvHelper
         } else {
             $q = $address;
         }
+        
+        $q = trim($q);
+        
+        $encoding = mb_detect_encoding($q);
+        if ($encoding != "UTF-8") {
+            $q = utf8_encode($q);
+        }
 
-        $q = urlencode(utf8_encode(trim($q)));
+        $q = urlencode($q);
         $datas = self::callApi($q);
         $coordinates = self::handle($datas);
 
